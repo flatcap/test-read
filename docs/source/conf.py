@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+copyright = '2025, Richard Russon'
+author = 'flatcap'
 
 release = '0.1'
 version = '0.1.0'
