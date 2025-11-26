@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'NeoMutt'
 copyright = '2025, Richard Russon'
 author = 'flatcap'
 
