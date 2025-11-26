@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser',
 ]
 
 intersphinx_mapping = {
@@ -39,5 +40,5 @@ html_context = {
     "github_user": "flatcap", # Username
     "github_repo": "test-read", # Repo name
     "github_version": "main", # Version
-    "conf_py_path": "/docs/source/", # Path in the checkout to the docs root
+    "conf_py_path": "/docs/", # Path in the checkout to the docs root
 }
