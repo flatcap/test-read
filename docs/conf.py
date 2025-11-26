@@ -31,6 +31,16 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    "collapse_navigation": False,
+    "sticky_navigation": True,
+    "navigation_depth": 4,
+    # use a light color for nav header background if supported
+    "style_nav_header_background": "#e9f7ef",  # very light green
+}
+html_static_path = ["_static"]
+html_css_files = ["custom.css"]
+html_logo = "_static/mutt-48x48.png"   # optional
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
