@@ -1,43 +1,17 @@
-/* overall page background and content */
-body { background: #ffffff; color: #203233; }
-
-/* sidebar background (very light mint) and text */
-.wy-side-nav, .wy-side-scroll, .wy-nav-side { background: #f6fbf8; color: #1f3b33; }
-
-/* nav header background (matches theme option fallback) */
-.rst-header { background-color: #e9f7ef; }
-
-/* sidebar links */
-.wy-menu-vertical a { color: #1b5e43; }
-.wy-menu-vertical a:hover,
-.wy-menu-vertical .current > a { color: #0d3b2a; background: transparent; }
-
-/* active section highlight bar (accent) */
-.wy-side-nav-search + div .divider::before,
-.wy-side-nav .current > a::before {
-  background: #2e8b57; /* green accent */
+div.document div.documentwrapper {
+  max-width: 100%;
 }
 
-/* topbar/logo area: subtle green tint */
-.rst-other-versions, .wy-side-nav-search { background: #f0fbf5; }
-
-/* links in content */
-.rst-content a { color: #1b6f48; }
-.rst-content a:hover { color: #125033; }
-
-/* headings — darker green for emphasis */
-.rst-content h1, .rst-content h2 { color: #114b38; }
-
-/* buttons, badges (if any) */
-a.button, .reference.internal {
-  background-color: #e6f5ec;
-  border: 1px solid #c7ead7;
-  color: #1b5e43;
+th {
+  text-align: left;
+  background-color: #e8e8e8;
 }
 
-/* code block background contrast (light) */
-.highlight pre, .highlight { background: #fbfefb; }
+:root[data-mode=dark] th {
+  background-color: #383838;
+}
 
-/* reduce strong contrasts (borders / dividers) */
-.wy-nav-side, .wy-nav-content, .wy-breadcrumbs { border-color: #e6efe9; }
+:root[data-mode=darkest] th {
+  background-color: #181818;
+}
 
