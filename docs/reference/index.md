@@ -16,6 +16,7 @@ last_updated: 2025-11-26
 maxdepth: 2
 ---
 configuration.md
+commands.md
 commands-keybindings.md
 file-formats.md
 exit-codes-logs.md
