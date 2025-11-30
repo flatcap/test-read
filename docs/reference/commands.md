@@ -29,8 +29,8 @@
 | `ignore`              | Hide specified headers when displaying messages                        |
 | `index-format-hook`   | Create dynamic index format strings                                    |
 | `lists`               | Add address to the list of mailing lists                               |
-| `lua-source`          | Execute a Lua script file                                              |
 | `lua`                 | Run a Lua expression or call a Lua function                            |
+| `lua-source`          | Execute a Lua script file                                              |
 | `macro`               | Define a keyboard macro                                                |
 | `mailboxes`           | Define a list of mailboxes to watch                                    |
 | `mailto_allow`        | Permit specific header-fields in mailto URL processing                 |
@@ -50,8 +50,8 @@
 | `score`               | Set a score value on emails matching a pattern                         |
 | `send-hook`           | Run a command when sending a message, new or reply, matching a pattern |
 | `send2-hook`          | Run command whenever a composed message is edited                      |
-| `setenv`              | Set an environment variable                                            |
 | `set`                 | Set a config variable                                                  |
+| `setenv`              | Set an environment variable                                            |
 | `shutdown-hook`       | Run a command before NeoMutt exits                                     |
 | `sidebar_pin`         | Pin a mailbox in the sidebar (keep visible)                            |
 | `sidebar_unpin`       | Unpin a previously pinned mailbox in the sidebar                       |
@@ -60,8 +60,8 @@
 | `spam`                | Define rules to parse spam detection headers                           |
 | `startup-hook`        | Run a command when NeoMutt starts up                                   |
 | `subjectrx`           | Apply regex-based rewriting to message subjects                        |
-| `subscribe-to`        | Subscribe to an IMAP mailbox                                           |
 | `subscribe`           | Add address to the list of subscribed mailing lists                    |
+| `subscribe-to`        | Subscribe to an IMAP mailbox                                           |
 | `tag-formats`         | Define expandos tags                                                   |
 | `tag-transforms`      | Rules to transform tags into icons                                     |
 | `timeout-hook`        | Run a command after a specified timeout or idle period                 |
@@ -85,12 +85,12 @@
 | `unmono`              | Deprecated: Use `uncolor`                                              |
 | `unmy_hdr`            | Remove a header previously added with `my_hdr`                         |
 | `unscore`             | Remove scoring rules for matching patterns                             |
-| `unsetenv`            | Unset an environment variable                                          |
 | `unset`               | Reset a config option to false/empty                                   |
+| `unsetenv`            | Unset an environment variable                                          |
 | `unsidebar_whitelist` | Deprecated: Use `sidebar_unpin`                                        |
 | `unsubjectrx`         | Remove subject-rewriting rules                                         |
-| `unsubscribe-from`    | Unsubscribe from an IMAP mailbox                                       |
 | `unsubscribe`         | Remove address from the list of subscribed mailing lists               |
+| `unsubscribe-from`    | Unsubscribe from an IMAP mailbox                                       |
 | `unvirtual-mailboxes` | Deprecated: Use `unmailboxes`                                          |
 | `version`             | Show NeoMutt version and build information                             |
 | `virtual-mailboxes`   | Deprecated: Use `mailboxes`/`named-mailboxes`                          |
